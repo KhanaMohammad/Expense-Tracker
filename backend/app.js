@@ -28,7 +28,7 @@ mongoose.connect("mongodb://localhost:27017/mern-expenses").then(()=>console.log
 
 
 
-app.listen(PORT , ()=>{
+app.listen(process.env.PORT|| PORT , ()=>{
     console.log(`Server runnig on port ${PORT}`);
 })
 
