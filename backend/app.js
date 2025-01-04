@@ -11,7 +11,7 @@ const PORT = 5000;
 //!Middleware
 app.use(express.json());
 const coreOption = {
-    origin : ['http://localhost:5173']
+    origin : ['https://expense-tracker-frontend-il13.onrender.com']
 }
 app.use(cors(coreOption))
 //! Routes
